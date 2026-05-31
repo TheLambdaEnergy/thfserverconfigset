@@ -215,7 +215,11 @@
 		"name"		"The Rebel Action Rouser"
 		"inherits"	"Panic Attack Shotgun"
 		"attributes_game"{
-			"set weapon model"		"download/models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+			"damage bonus" 				"1.2"
+			"fire rate bonus" 			"0.1"
+			"weapon spread bonus" 		"0.001"
+			"maxammo primary reduced" 	"0.5"
+			"set weapon model" 			"download/models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
 		}
 	}
 	"{gs6tf76asdt98fag}"{
