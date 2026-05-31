@@ -1,0 +1,11 @@
+Welcome to Touhou Fortress v0.1
+Server is in alpha-testing,welcome test
+
+Avalible commands:
+
+!admin - For admins only.
+!models - Change player model.
+!cwx - Server custom weapons equip
+!taunt - Use any taunt.
+!utaunt - Setting unusual effect of taunts.
+!tp/!fp - Switch thirdperson/firstperson

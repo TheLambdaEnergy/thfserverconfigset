@@ -1,0 +1,252 @@
+// This is an example weapon configuration file containing two example weapons.
+// For more detailed and up-to-date documentation, visit the following page:
+// https://github.com/nosoop/SM-TFCustomWeaponsX/wiki/Getting-Started-(for-Server-Operators)#creating-a-new-item-from-scratch
+
+// two or more forward slashes indicates a comment - you cannot use /* multiline comments */ here
+"Items"
+{
+	"{e86f9513-1454-49dd-97b1-ce1faab2f89e}" // we just need a unique identifier here - this is not necessarily a UUID
+	{
+		//// item name, to be displayed in any menus
+		"name"			"气爆者"
+		
+		//// "inherits" is special:  it resolves to item definition and determines classname, item slots, quality
+		//// if provided, this must correspond to the value of a "name" key in items_game.txt
+		"inherits"		"TF_WEAPON_FLAMETHROWER"
+		
+		//// "inherits" automatically determines this if provided, but
+		//// sometimes you want a different itemdef (e.g. hiding weapon viewmodels with fists)
+		// "defindex"	"21"
+		
+		//// if not using "inherits", full classname must be provided
+		//// no magic bullshit happens in the backend (except translation based on player class)
+		// "item_class"	"tf_weapon_flamethrower"
+		
+		//// manually defined loadout slot, for listing in the correct menu and for inventory storage
+		//// "inherits" automatically determines this if provided, but if this section is also present, it will be used in place of what "inherits" would provide
+		//// if manually defined, this MUST match the loadout slot for the item classname!
+		//// you *cannot* specify your own slot and expect a weapon to work in a different slot than it was designed for
+		// "used_by_classes"
+		// {
+		//     "scout" "primary" // primary weapon for scout
+		// }
+		
+		//// whether or not static (item schema) attributes are preserved
+		//// 0: only use attributes applied at runtime 
+		//// 1: preserves static attributes
+		"keep_static_attrs"		"1"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"airblast_destroy_projectile"				"1"
+			"airblast cost scale hidden"				"0.2"
+		}
+		
+		//// custom attributes by cattr -- this just gets copied into Custom Attributes' core, nested structures and all
+		//// you will need plugins that implement these attributes - CWX does not come with any preinstalled
+		//// they are linked in the wiki page here: https://github.com/nosoop/SM-TFCustAttr/wiki/Public-Custom-Attribute-Sets
+		"attributes_custom"
+		{
+			"airblast projectiles restores health"		"30"
+			"airblast projectiles adds self condition"	"condition=32 duration=10"
+			
+			//// commented out below in case the below attribute exists
+			//// if the attribute exists, you will need to ensure the associated resources are cached
+			// "clientmodel override"					"models/weapons/c_models/c_firkin_flamer/c_firkin_flamer.mdl"
+		}
+	}
+	"{e1bc546e-b0b7-41c5-bc5e-8257406d575c}"
+	{
+		// here's a condensed example
+		"name"			"The 'Grenade Launcher' Launcher"
+		"inherits"		"The Iron Bomber"
+		"attributes_game"
+		{
+			// string attributes work too, as long as the client doesn't read them
+			// you can't set things like "custom name attr"
+			"custom projectile model"					"models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl"
+		}
+	}
+	"{0000aa1}"{
+		"name"			"Test weapon 1"
+		"inherits"		"Panic Attack Shotgun"
+		"attributes_game"
+		{
+			"bleeding duration"				"2"
+			"Set DamageType Ignite"				"3"
+		}
+	}
+	"{pyro2}"{
+		"name"			"EAT-177 Expendable Framethorwer"
+		"inherits"		"TF_WEAPON_FLAMETHROWER"
+		"attributes_game"
+		{
+			"airblast_destroy_projectile"			"1"
+			"damage penalty"				"2.5"
+			"maxammo primary reduced"			"0.02"
+			"weapon burn dmg increased"			"2.5"
+			"weapon burn time reduced"			"0.8"
+			"airblast cost increased"			"1"
+		}
+	}
+	"{pyro3}"{
+		"name"			"SG-24 Eruptgun"
+		"inherits"		"The Reserve Shooter"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.5"
+			"maxammo secondary reduced"			"0.5"
+			"damage penalty"				"0.3"
+			"bleeding duration"				"2"
+			"Reload time decreased"				"0.5"
+			"minicritboost on kill"				"1"
+			"mult_spread_scales_consecutive"		"1"	
+		}
+	}
+	"{sniper1}"{
+		"name"			"SNI-2 Volcano Arquebus"
+		"inherits"		"The Bazaar Bargain"
+		"attributes_game"
+		{
+			"fire rate penalty"				"5"
+			"damage penalty"				"2"
+			"sniper no headshots"				"1"
+			//"sniper zoom penalty"				"1000"
+			"dmg from melee increased"			"2"
+			"slow enemy on hit major"			"20"
+		}
+	}
+	"{medic1}"{
+		"name"			"MED-24 Last Chance"
+		"inherits"		"TF_WEAPON_MEDIGUN"
+		"attributes_game"
+		{
+			"heal rate bonus"				"0.3"
+			"ubercharge rate bonus"				"2"
+			"uber duration bonus"				"10"
+			"max health additive penalty"			"-70"
+		}
+	}
+	"{scout1}"{
+		"name"			"P-18 Califonia Boy"
+		"inherits"		"TF_WEAPON_PISTOL_SCOUT"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.6"
+			"clip size bonus"				"2"
+			"maxammo secondary increased"			"1.4"
+			"self mark for death"				"1000000000000000"
+		}
+	}
+	"{soldier1}"{
+		"name"			"AA-5 Flak Stinger"
+		"inherits"		"TF_WEAPON_ROCKETLAUNCHER"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.33"
+			"Projectile speed increased"			"1.8"
+			"clip size bonus"				"5"
+			"maxammo primary increased"			"3"
+			"Reload time increased"				"2"
+			"damage penalty"				"0.6"
+			"Blast radius decreased"			"0.01"
+			"mod mini-crit airborne"			"1"
+		}
+	}
+	"{pyro4}"{
+		"name"			"SG-7 Infiltrator"
+		"inherits"		"TF_WEAPON_SHOTGUN_SOLDIER"
+		"used_by_classes"
+		{
+			"soldier"	"secondary"
+			"heavy"		"secondary"
+			"pyro"		"secondary"
+		}
+		"attributes_game"
+		{
+			"bullets per shot bonus"			"0.1"
+			"weapon spread bonus"				"0.01"
+			"damage bonus"					"7"
+			"clip size penalty"				"0.66"
+			"maxammo secondary reduced"			"0.8"
+			"slow enemy on hit major"			"1"
+		}
+	}
+	"{demo2}"{
+		"name"			"GL-3 LMGL"
+		"inherits"		"TF_WEAPON_GRENADELAUNCHER"
+		"attributes_game"
+		{
+			"damage bonus"					"1.2"
+			"clip size bonus"				"1.5"
+			"Projectile speed increased"			"1.3"
+			"fire rate penalty"				"1.3"
+			"Reload time increased"				"1.5"
+			"Blast radius increased"			"1.5"
+		}
+	}
+	"{heavy1}"{
+		"name"			"MG-89 Freedom Wish"
+		"inherits"		"Tomislav"
+		"attributes_game"
+		{
+			"damage bonus"					"1.1"
+			"fire rate bonus"				"1.2"
+			"minigun spinup time decreased"			"0.8"
+			"move speed bonus"				"1.15"
+			"maxammo primary reduced"			"0.25"
+			"weapon spread bonus"				"0.01"
+		}
+	}
+	"{heavy2}"{
+		"name"			"CQC-81 Vetevan"
+		"inherits"		"TF_WEAPON_FISTS"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.66"
+			"move speed bonus"				"0.05"
+			"damage penalty"				"0.9"
+			"max health additive penalty"			"0.85"
+		}	
+	}
+	"{engi1}"{
+		"name"			"EWL-1 Emergency Stradage"
+		"inherits"		"The Rescue Ranger"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.25"
+			"Reload time decreased"				"0.6"
+			"damage bonus"					"1.1"
+			"clip size penalty"				"0.5"
+			"maxammo primary increased"			"1.2"
+		}
+	}
+	"{spy1}"{
+		"name"			"R-1 Top Shooter"
+		"inherits"		"TF_WEAPON_REVOLVER"
+		"attributes_game"
+		{
+			"fire rate bonus"				"0.66"
+			"damage penalty"				"0.8"
+			"Reload time increased"				"1.5"
+			"maxammo primary reduced"			"0.5"
+			"revolver use hit locations"			"1"
+		}	
+	}
+	"{hq897y40t98yrgh097sdyh82df}"{
+		"name"			"SG-22 Snowdin Howl"
+		"inherits"		"The Back Scatter"
+		"attributes_game"
+		{
+			"clip size bonus"				"8.5"
+			"fire rate bonus"				"0.11"
+			"maxammo primary increased"			"6"
+			"Reload time decreased"				"0.2"
+			"damage penalty"				"0.3"
+			// "bullets per shot bonus"			"0.1"
+			"weapon spread bonus"				"0.3"
+		}
+	}
+}
+

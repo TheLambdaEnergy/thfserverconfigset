@@ -1,0 +1,277 @@
+"Items"{
+	"{hiuhuoYGUYGAGFosidhr982y34}"{
+		"name"		"MP-18"
+		"inherits"	"Baby Face's Blaster"
+		"attributes_game"{
+			"custom name attr"		"MP-18"
+			"damage penalty"		"0.22"
+			"reload time decreased"		"0.131"
+			"fire rate bonus"		"0.1"
+			"clip size bonus"		"8"
+			"maxammo primary increased"	"5"
+			"weapon spread bonus"		"0.001"
+			"revolver use hit locations"	"1"
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl"
+		}
+		"attributes_custom"{
+			"weaponmodel override"		"models/weapons/c_models/c_blackbox/c_blackbox.mdl"
+		}
+	}
+	"{stenfdhg9873y47ty3874}"{
+		"name"		"STEN"
+		"inherits"	"TF_WEAPON_PISTOL"
+		"attributes_game"{
+			"damage penalty"		"1"
+			"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
+		}
+	}
+	"{CZ75SDFH92Y489HDUH3DF}"{
+		"name"		"CZ-75"
+		"inherits"	"TF_WEAPON_PISTOL"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
+		}
+	}
+	"{beekeeperasidbaiouwh21}"{
+		"name"		"A-180"
+		"inherits"	"The Back Scatter"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl"
+			"fire rate bonus"		"0.17"
+			"maxammo primary increased"	"10"
+			"clip size bonus"		"25"
+			"reload time decreased"		"0.2"
+			"weapon spread bonus"		"0.001"
+			"damage penalty"		"0.088"
+		}
+	}
+	"{uof0982u390hf9we8h4}"{
+		"name"		"Under-Over FaN"
+		"inherits"	"The Force-a-Nature"
+		"attributes_game"{
+			// "clip size bonus"		""
+			"set weapon model"		"download/models/weapons/c_models/c_double_barrel.mdl"
+		}
+	}
+	"{pd19eu192ud9812u}"{
+		"name"		"Pocket Delivery"
+		"inherits"	"Pretty Boy's Pocket Pistol"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl"
+		}
+	}
+	"{csr01u98u893}"{
+		"name"		"Scout Revolver"
+		"inherits"	"The Shortstop"
+		"attributes_game"{
+			"clip size bonus"		"1.5"
+			"damage bonus"			"1.2"
+			"fire rate penalty"		"1.2"
+			"reload time decreased"		"0.8"
+			"weapon spread bonus"		"0.01"
+			"set weapon model"		"download/models/weapons/c_models/c_shortstop/c_shortstop.mdl"	
+		}
+	}
+	"{TinyTerminator}"{
+		"name"		"Tiny Terminator"
+		"inherits"	"The Winger"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_winger_pistol/c_winger_pistol.mdl"
+		}		
+	}
+	"{dc4bb879yf987wey}"{
+		"name"		"Double Chute 4 Black Box"
+		"inherits"	"The Black Box"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_blackbox/c_blackbox.mdl"
+		}
+	}
+	"{wik98h978ghef87}"{
+		"name"		"The Bastard Backguard"
+		"inherits"	"The Equalizer"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
+		}
+	}
+	"{sabre7y239hfds9}"{
+		"name"		"The Wing Clipper"
+		"inherits"	"The Escape Plan"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
+		}
+	}
+	"{pn932h4f987h3}"{
+		"name"		"Pyro Nade"
+		"inherits"	"The Gas Passer"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
+		}
+	}
+	"{pbl981u98hdsfsdf}"{
+		"name"		"Pipe Bomb Launcher"
+		"inherits"	"The Iron Bomber"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_quadball/c_quadball.mdl"
+		}
+	}
+	"{ub9y87yas87fy8awe}"{
+		"name"		"Ullapool Bomber"
+		"inherits"	"The Ullapool Caber"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_caber/c_caber.mdl"
+		}
+	}
+	"{ew98dhf87hf}"{
+		"name"		"Excalibrated Wrench"
+		"inherits"	"TF_WEAPON_WRENCH"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_wrench/c_wrench.mdl"
+		}
+	}
+	"{stg44uh8sh87ahsfs}"{
+		"name"		"STG-44"
+		"inherits"	"TF_WEAPON_SYRINGEGUN_MEDIC"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_syringegun/c_syringegun.mdl"		
+		}
+	}
+	"{a98df98sdfsd}"{
+		"name"		"Annilator"
+		"inherits"	"TF_WEAPON_SMG"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_smg/c_smg.mdl"
+		}
+	}
+	"{rr09auf98ays}"{
+		"name"		"Russian Repeater"
+		"inherits"	"TF_WEAPON_SMG"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_smg/c_smg.mdl"
+		}
+	}
+	"{v09aus09dau90}"{
+		"name"		"Vetteran V1"
+		"inherits"	"The Hitman's Heatmaker"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_rifle/c_pro_rifle.mdl"
+		}
+	}
+	"{th9908u98s}"{
+		"name"		"M1A1 Thompson"
+		"inherits"	"The Cleaner's Carbine"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
+		}
+	}
+	"{liowa9s8du9ausgf}"{
+		"name"		"Lil Owen"
+		"inherits"	"The Bazaar Bargain"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper.mdl"
+		}
+	}
+	"{kf12giwegsegsg}"{
+		"name"		"Kaiser Faust"
+		"inherits"	"The AWPer Hand"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_csgo_awp/c_csgo_awp.mdl"
+		}
+	}
+	"{tksd9ohf98sdygas}"{
+		"name"		"RSC 1917"
+		"inherits"	"TF_WEAPON_SNIPERRIFLE"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_sniperrifle/c_sniperrifle.mdl"
+		}
+	}
+	"{la09dauf0usdf}"{
+		"name"		"L'ament"
+		"inherits"	"The Ambassador"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_ambassador/c_ambassador.mdl"
+		}
+	}
+	"{cs9ays9d8as89}"{
+		"name"		"Citizens' Sickle"
+		"inherits"	"Frying Pan"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_frying_pan/c_frying_pan.mdl"
+			"set weapon material"		"download/w/CitizensSickle/materials/models/weapons/c_items/Heavy_CitizenSickle.vtf"
+		}
+	}
+	"{tt09asui0d9ua09g}"{
+		"name"		"Trench Chopper"
+		"inherits"	"The Pain Train"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_paintrain/c_paintrain.mdl"
+		}
+	}
+	"{trar09aus0d9ausd}"{
+		"name"		"The Rebel Action Rouser"
+		"inherits"	"Panic Attack Shotgun"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+		}
+	}
+	"{gs6tf76asdt98fag}"{
+		"name"		"Garand Slam"
+		"inherits"	"TF_WEAPON_SHOTGUN_SOLDIER"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_shotgun/c_shotgun.mdl"
+		}
+	}
+	"{alof98aus89yhag}"{
+		"name"		"ALOF"
+		"inherits"	"The Frontier Justice"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl"
+		}
+	}
+	"{ar876s8d45ga768sd}"{
+		"name"		"Adjucator Revolver"
+		"inherits"	"TF_WEAPON_REVOLVER"
+		"attributes_game"{
+			"set weapon model"		"tf/download/models/weapons/c_models/c_revolver/c_revolver.mdl"
+		}
+	}
+	"{bfhas9ug90dysa87sd}"{
+		"name"		"Brute Force Homewrecker"
+		"inherits"	"The Homewrecker"
+		"attributes_game"{
+			"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
+		}
+	}
+	"{bka98s7896g}"{
+		"name"		"CBK"
+		"inherits"	"TTG Sam Revolver"
+		"attributes_game"{
+			"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
+		}
+	}
+	
+}
+
+
+//Todo : delete MP-40 ,keep STG-44
+//Fix : Bazzar Sniper (Li'l Owen)
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
