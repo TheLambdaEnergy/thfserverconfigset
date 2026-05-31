@@ -145,11 +145,11 @@
 		"attributes_game"
 		{
 			"fire rate bonus"				"0.33"
-			"Projectile speed increased"			"1.8"
+			"Projectile speed increased"			"2.5"
 			"clip size bonus"				"5"
 			"maxammo primary increased"			"3"
 			"Reload time increased"				"2"
-			"damage penalty"				"0.6"
+			"damage penalty"				"0.45"
 			"Blast radius decreased"			"0.01"
 			"mod mini-crit airborne"			"1"
 		}
