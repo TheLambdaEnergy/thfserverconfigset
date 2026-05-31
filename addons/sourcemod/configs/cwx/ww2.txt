@@ -226,7 +226,13 @@
 		"name"		"Garand Slam"
 		"inherits"	"TF_WEAPON_SHOTGUN_SOLDIER"
 		"attributes_game"{
-			"set weapon model"		"download/models/weapons/c_models/c_shotgun/c_shotgun.mdl"
+			"damage bonus" 			"1.1"
+			"fire rate bonus" 		"0.5"
+			"clip size bonus" 		"1.4"
+			"weapon spread bonus" 	"0.001"
+			"reload time decreased" 	"0.8"
+			"maxammo primary reduced" 	"0.8"
+			"set weapon model" 		"download/models/weapons/c_models/c_shotgun/c_shotgun.mdl"
 		}
 	}
 	"{alof98aus89yhag}"{
