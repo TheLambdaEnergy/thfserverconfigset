@@ -202,9 +202,16 @@
 		}
 	}
 	"{th9908u98s}"{
-		"name"		"M1A1 Thompson"
+		"name"		"Machine Carbine"
 		"inherits"	"The Cleaner's Carbine"
 		"attributes_game"{
+			"damage bonus"		"1.2"
+			"fire rate bonus"		"0.71"
+			"clip size bonus"		"5"
+			"maxammo secondary increased"	"7"
+			"reload time increased"		"3"
+			"move speed penalty"	"0.8"
+			"single wep deploy time increased"	"2"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
 		}
 	}
