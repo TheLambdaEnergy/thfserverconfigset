@@ -216,9 +216,11 @@
 		}
 	}
 	"{cs9ays9d8as89}"{
-		"name"		"Citizens' Sickle"
+		"name"		"Democracy Liberator"
 		"inherits"	"Frying Pan"
 		"attributes_game"{
+			"mod shovel damage boost"		"1"
+			"mark for death"			"1"
 			"set weapon model"		"download/models/weapons/c_models/c_frying_pan/c_frying_pan.mdl"
 			// "set weapon material"		"download/w/CitizensSickle/materials/models/weapons/c_items/Heavy_CitizenSickle.vtf"
 		}
