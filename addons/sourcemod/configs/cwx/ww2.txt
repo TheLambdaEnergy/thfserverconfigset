@@ -158,6 +158,18 @@
 			"set weapon model"		"download/models/weapons/c_models/c_wrench/c_wrench.mdl"
 		}
 	}
+	"{cb98y9yg9yrwwef}"{
+		"name"		"Lancer"
+		"inherits"	"Crusader's Crossbow"
+		"attributes_game"{
+			"health regen"		"3"
+			"move speed bonus"		"1.3"
+			"projectile speed increased"	"1.5"
+			"reload time decreased"		"0.8"
+			"damage penalty"		"0"
+			// "set weapon model"		"download/models/workshop/weapons/c_models/c_combatwrench/c_combatwrench.mdl"
+		}
+	}
 	"{stg44uh8sh87ahsfs}"{
 		"name"		"STG-44"
 		"inherits"	"TF_WEAPON_SYRINGEGUN_MEDIC"
