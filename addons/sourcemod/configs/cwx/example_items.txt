@@ -192,11 +192,11 @@
 		"attributes_game"
 		{
 			"damage bonus"					"1.1"
-			"fire rate bonus"				"1.2"
+			"fire rate bonus"				"1"
 			"minigun spinup time decreased"			"0.8"
 			"move speed bonus"				"1.15"
 			"maxammo primary reduced"			"0.25"
-			"weapon spread bonus"				"0.01"
+			"weapon spread bonus"				"0.2"
 		}
 	}
 	"{heavy2}"{
