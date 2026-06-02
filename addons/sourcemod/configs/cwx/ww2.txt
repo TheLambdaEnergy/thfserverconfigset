@@ -12,7 +12,8 @@
 			"weapon spread bonus"		"0.001"
 			"revolver use hit locations"	"1"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl"
-		
+		}
+	}
 	"{stenfdhg9873y47ty3874}"{
 		"name"		"STEN"
 		"inherits"	"TF_WEAPON_PISTOL"
