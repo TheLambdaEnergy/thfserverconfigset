@@ -135,9 +135,13 @@
 		}
 	}
 	"{ub9y87yas87fy8awe}"{
-		"name"		"Ullapool Bomber"
+		"name"		"Mine Club"
 		"inherits"	"The Ullapool Caber"
 		"attributes_game"{
+			"damage bonus"		"2"
+			"speed boost when active"	"1.6"
+			"self mark for death"	"1"
+			"mod_maxhealth_drain_rate"	"1"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_caber/c_caber.mdl"
 		}
 	}
