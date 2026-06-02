@@ -260,6 +260,11 @@
 		"name"		"ALOF"
 		"inherits"	"The Frontier Justice"
 		"attributes_game"{
+			"fire rate bonus"		"0.7"
+			"weapon spread bonus"		"0.5"
+			"clip size bonus"		"1.75"
+			"damage penalty"		"0.8"
+			"reload time bonus"		"1.2"
 			"set weapon model"		"download/models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl"
 		}
 	}
