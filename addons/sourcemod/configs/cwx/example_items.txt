@@ -224,6 +224,7 @@
 	}
 	"{spy1}"{
 		"name"			"R-1 Top Shooter"
+		"defindex"		"17431"
 		"inherits"		"TF_WEAPON_REVOLVER"
 		"attributes_game"
 		{
