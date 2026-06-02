@@ -151,6 +151,10 @@
 		"name"		"Excalibrated Wrench"
 		"inherits"	"TF_WEAPON_WRENCH"
 		"attributes_game"{
+			"damage bonus"		"1.5"
+			"bleeding duration"		"2"
+			"fire rate bonus"		"1.3"
+			"move speed penalty"	"0.8"
 			"set weapon model"		"download/models/weapons/c_models/c_wrench/c_wrench.mdl"
 		}
 	}
