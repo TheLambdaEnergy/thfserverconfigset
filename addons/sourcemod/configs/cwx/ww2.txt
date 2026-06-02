@@ -18,7 +18,9 @@
 		"name"		"STEN"
 		"inherits"	"TF_WEAPON_PISTOL"
 		"attributes_game"{
-			"damage penalty"		"1"
+			"damage penalty"		"0.8"
+			"fire rate bonus"		"0.7"
+			"clip size bonus"		"1.8"
 			"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
 		}
 	}
