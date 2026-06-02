@@ -255,6 +255,10 @@
 		"name"		"L'ament"
 		"inherits"	"The Ambassador"
 		"attributes_game"{
+			"damage bonus"		"1.2"
+			"fire rate bonus"		"0.83"
+			"reload time increased"		"1.11"
+			"dmg pierces resists absorbs"	"1"
 			"set weapon model"		"download/models/weapons/c_models/c_ambassador/c_ambassador.mdl"
 		}
 	}
