@@ -104,6 +104,7 @@
 		"name"		"The Bastard Backguard"
 		"inherits"	"The Equalizer"
 		"attributes_game"{
+			// Ready to change #1
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
 	}
@@ -111,6 +112,7 @@
 		"name"		"The Wing Clipper"
 		"inherits"	"The Escape Plan"
 		"attributes_game"{
+			// Ready to change #1
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
 	}
@@ -118,6 +120,7 @@
 		"name"		"Pyro Nade"
 		"inherits"	"The Gas Passer"
 		"attributes_game"{
+			// Ready to change #1
 			"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
 		}
 	}
@@ -276,6 +279,7 @@
 		"name"		"Trench Chopper"
 		"inherits"	"The Pain Train"
 		"attributes_game"{
+			// Ready to change #1
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_paintrain/c_paintrain.mdl"
 		}
 	}
