@@ -160,7 +160,7 @@
 	}
 	"{cb98y9yg9yrwwef}"{
 		"name"		"Lancer"
-		"inherits"	"Crusader's Crossbow"
+		"inherits"	"The Crusader's Crossbow"
 		"attributes_game"{
 			"health regen"		"3"
 			"move speed bonus"		"1.3"
