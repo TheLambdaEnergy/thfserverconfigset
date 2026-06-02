@@ -188,6 +188,12 @@
 		"name"		"Russian Repeater"
 		"inherits"	"TF_WEAPON_SMG"
 		"attributes_game"{
+			"damage bonus"		"1.5"
+			"fire rate bonus"		"1.67"
+			"clip size bonus"		"1.28"
+			"max ammo secondary increased"	"2"
+			"move speed bonus"		"1.2"
+			"reload time increased"		"1.25"
 			"set weapon model"		"download/models/weapons/c_models/c_smg/c_smg.mdl"
 		}
 	}
