@@ -51,7 +51,8 @@
 			"damage bonus"			"1.2"
 			"bullets per shot bonus"		"2"
 			"weapon spread bonus"		"0.7"
-			"clip size penalty"		"2"
+			"clip size penalty"		"0.1"
+			"reload time bonus"		"3"
 			"maxammo primary reduced"	"0.5"
 		}
 	}
@@ -82,9 +83,18 @@
 		}		
 	}
 	"{dc4bb879yf987wey}"{
-		"name"		"Double Chute 4 Black Box"
+		"name"		"FRAG Rocket Launcher"
 		"inherits"	"The Black Box"
 		"attributes_game"{
+			"fire rate bonus"		"0.5"
+			"projectile speed bonus"	"2"
+			"blast radius increased"		"1.8"
+			"bleeding duration"		"4"
+			// "slow enemy on hit"		"100"
+			"damage penalty"		"0.5"
+			"clip size penalty"		"0.7"
+			"maxammo primary reduced"	"0.2"
+			"reload time bonus"		"1.5"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_blackbox/c_blackbox.mdl"
 		}
 	}
@@ -198,7 +208,7 @@
 		"inherits"	"Frying Pan"
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/c_models/c_frying_pan/c_frying_pan.mdl"
-			"set weapon material"		"download/w/CitizensSickle/materials/models/weapons/c_items/Heavy_CitizenSickle.vtf"
+			// "set weapon material"		"download/w/CitizensSickle/materials/models/weapons/c_items/Heavy_CitizenSickle.vtf"
 		}
 	}
 	"{tt09asui0d9ua09g}"{
