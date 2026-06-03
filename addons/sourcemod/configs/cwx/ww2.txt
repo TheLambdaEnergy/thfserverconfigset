@@ -340,10 +340,63 @@
 			"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
 		}
 	}
-	
+
+	// vpks update
+	"{ltanger12iu4hi1h5i15}"{
+		"name"		"letranger"
+		"inherits"	"The L'Etranger"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_letranger/c_letranger.mdl"
+		}
+	}
+	"{reserveshooter876a986f89a}"{
+		"name"		"Reserve Shooter"
+		"inherits"	"The Reserve Shooter"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter.mdl"
+		}
+	}
+	"{russianriot}"{
+		"name"		"Russian Riot"
+		"inherits"	"TF_WEAPON_REVOLVER" // Unknown inherit
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
+		}
+	}
+	"{ttshoa98su98as9gf}"{
+		"name"		"Tele Shotgun"
+		"inherits"	"TF_WEAPON_SHOTGUN_SOLDIER"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_tele_shotgun/c_tele_shotgun.mdl"
+		}
+	}
+	"{flaregqw78y8a7s6}"{
+		"name"		"Flare Gun 2"
+		"inherits"	"The Flare Gun"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.mdl"
+		}
+	}
+	"{flamet237y8d7y897ag}"{
+		"name"		"Temp FT"
+		"inherits"	"TF_WEAPON_FLAMETHROWER"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/w_models/w_flamethrower.mdl"
+		}
+	}
+
+
+	// vpks 2
+	"{bfh908aas76gg}"{
+		"name"		"Brute Force Homewrecker"
+		"inherits"	"The Homewrecker"
+		"attributes_game"{
+			"set weapon model"		"download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
+		}
+	}
+
+
 }
-
-
 //Todo : delete MP-40 ,keep STG-44
 //Fix : Bazzar Sniper (Li'l Owen)
 //
