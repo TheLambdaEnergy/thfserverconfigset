@@ -394,6 +394,21 @@
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
 		}
 	}
+	"{wdrays9g8yasg8}"{
+		"name"		"Wood Dart Rifle"
+		"inherits"	"The Crusader's Crossbow"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_crusaders_crossbow/c_crusaders_crossbow.mdl"
+		}
+	}
+	"{sj87a6s8g68g}"{
+		"name"		"Smoke Jarate"
+		"inherits"	"Jarate"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
+		}
+	}
+	""
 
 
 }
