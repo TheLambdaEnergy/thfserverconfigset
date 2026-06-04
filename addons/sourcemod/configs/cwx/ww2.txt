@@ -81,6 +81,9 @@
 		"name"		"Tiny Terminator"
 		"inherits"	"The Winger"
 		"attributes_game"{
+			"damage bonus"		"2"
+			"fire rate bonus"		"1.11"
+			"clip size bonus"		"1.4"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_winger_pistol/c_winger_pistol.mdl"
 		}		
 	}
@@ -94,8 +97,8 @@
 			"bleeding duration"		"4"
 			"slow enemy on hit"		"100"
 			"damage penalty"		"0.5"
-			"clip size penalty"		"0.7"
-			"maxammo primary reduced"	"0.2"
+			"clip size penalty"		"0.5"
+			"maxammo primary reduced"	"0.125"
 			"reload time increased"		"1.5"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_blackbox/c_blackbox.mdl"
 		}
@@ -129,8 +132,8 @@
 		"inherits"	"The Iron Bomber"
 		"attributes_game"{
 			"projectile speed increased"	"1.5"
-			"blast radius increased"	"1.5"
-			"fuse bonus"			"0.5"
+			"blast radius increased"	"3.5"
+			"fuse bonus"			"0.3"
 			"bleeding duration"		"3"
 			"damage penalty"		"0.5"
 			"clip size penalty"		"0.25"
@@ -144,7 +147,8 @@
 		"inherits"	"The Ullapool Caber"
 		"attributes_game"{
 			"damage bonus"		"2"
-			"speed boost when active"	"1.6"
+			"blast radius increased"	"1.5"
+			"speed boost when active"	"3"
 			"self mark for death"	"1"
 			"mod_maxhealth_drain_rate"	"1"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_caber/c_caber.mdl"
@@ -382,6 +386,10 @@
 		"inherits"	"TF_WEAPON_FLAMETHROWER"
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/w_models/w_flamethrower.mdl"
+			"damage bonus"		"1.5"
+			"maxammo primary reduced"	"0.25"
+			"weapon burn dmg increased"		"2"
+			"airblast disabled"		"1"
 		}
 	}
 
@@ -405,6 +413,10 @@
 		"name"		"Smoke Jarate"
 		"inherits"	"Jarate"
 		"attributes_game"{
+			"maxammo secondary increased"		"2"
+			"clip size bonus"		"2"
+			"charge recharge rate increased"		"1.25"
+			"bleeding duration"		"8"
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
@@ -433,6 +445,10 @@
 		"name"		"P-08 Luger"
 		"inherits"	"TTG Max Pistol"
 		"attributes_game"{
+			"damage bonus"		"2"
+			"clip size penalty"		"0.7"
+			"fire rate bonus"		"1.11"
+			// +15% move speed when active
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl"
 		}
 	}
@@ -440,6 +456,11 @@
 		"name"		"Piss Slinging Slasher"
 		"inherits"	"Prinny Machete"
 		"attributes_game"{
+			"mark for death"		"1"
+			"minicrits become crits"		"1"
+			"fire rate bonus"		"1.33"
+			"speed boost when active"		"1.15"
+			"mod_maxhealth_drain_rate"		"1"
 			"set weapon model"		"download/models/weapons/c_models/c_machete/c_machete.mdl"
 		}
 	}
@@ -462,6 +483,10 @@
 		"inherits"	"The Flying Guillotine"
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/c_models/c_sd_cleaver/c_sd_cleaver.mdl"
+			"charge recharge rate increased"		"1.5"
+			"maxammo secondary increased"		"2"
+			"Projectile speed increased"		"2"
+			"damage bonus"		"1.25"
 		}
 	}
 }
