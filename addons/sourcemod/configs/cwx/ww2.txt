@@ -457,6 +457,13 @@
 			"set weapon model"		"download/models/weapons/c_models/c_leechgun/c_leechgun.mdl"
 		}
 	}
+	"{tna78sg7a9s87asda}"{
+		"name"		"Throwing Knife"
+		"inherits"	"The Flying Guillotine"
+		"attributes_game"{
+			"set weapon model"		"download/models/weapons/c_models/c_sd_cleaver/c_sd_cleaver.mdl"
+		}
+	}
 }
 //Todo : delete MP-40 ,keep STG-44
 //Fix : Bazzar Sniper (Li'l Owen)
