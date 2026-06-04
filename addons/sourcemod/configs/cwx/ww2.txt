@@ -24,13 +24,13 @@
 			"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
 		}
 	}
-	"{CZ75SDFH92Y489HDUH3DF}"{
-		"name"		"CZ-75"
-		"inherits"	"TF_WEAPON_PISTOL"
-		"attributes_game"{
-			"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
-		}
-	}
+	// "{CZ75SDFH92Y489HDUH3DF}"{
+	// 	"name"		"CZ-75"
+	// 	"inherits"	"TF_WEAPON_PISTOL"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/weapons/c_models/c_pistol/c_pistol.mdl"
+	// 	}
+	// }
 	"{beekeeperasidbaiouwh21}"{
 		"name"		"A-180"
 		"inherits"	"The Back Scatter"
@@ -58,13 +58,13 @@
 			"maxammo primary reduced"	"0.5"
 		}
 	}
-	"{pd19eu192ud9812u}"{
-		"name"		"Pocket Delivery"
-		"inherits"	"Pretty Boy's Pocket Pistol"
-		"attributes_game"{
-			"set weapon model"		"download/models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl"
-		}
-	}
+	// "{pd19eu192ud9812u}"{
+	// 	"name"		"Pocket Delivery"
+	// 	"inherits"	"Pretty Boy's Pocket Pistol"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl"
+	// 	}
+	// }
 	"{csr01u98u893}"{
 		"name"		"Scout Revolver"
 		"inherits"	"The Shortstop"
@@ -116,14 +116,14 @@
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
 	}
-	"{pn932h4f987h3}"{
-		"name"		"Pyro Nade"
-		"inherits"	"The Gas Passer"
-		"attributes_game"{
-			// Ready to change #1
-			"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
-		}
-	}
+	// "{pn932h4f987h3}"{
+	// 	"name"		"Pyro Nade"
+	// 	"inherits"	"The Gas Passer"
+	// 	"attributes_game"{
+	// 		// Ready to change #1
+	// 		"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
+	// 	}
+	// }
 	"{pbl981u98hdsfsdf}"{
 		"name"		"FRAG Airblast"
 		"inherits"	"The Iron Bomber"
@@ -161,32 +161,32 @@
 			"set weapon model"		"download/models/weapons/c_models/c_wrench/c_wrench.mdl"
 		}
 	}
-	"{cb98y9yg9yrwwef}"{
-		"name"		"Lancer"
-		"inherits"	"The Crusader's Crossbow"
-		"attributes_game"{
-			"health regen"		"3"
-			"move speed bonus"		"1.3"
-			"projectile speed increased"	"1.5"
-			"reload time decreased"		"0.8"
-			"damage penalty"		"0"
-			// "set weapon model"		"download/models/workshop/weapons/c_models/c_combatwrench/c_combatwrench.mdl"
-		}
-	}
-	"{stg44uh8sh87ahsfs}"{
-		"name"		"STG-44"
-		"inherits"	"TF_WEAPON_SYRINGEGUN_MEDIC"
-		"attributes_game"{
-			"set weapon model"		"download/models/weapons/c_models/c_syringegun/c_syringegun.mdl"		
-		}
-	}
-	"{a98df98sdfsd}"{
-		"name"		"Annilator"
-		"inherits"	"TF_WEAPON_SMG"
-		"attributes_game"{
-			"set weapon model"		"download/models/weapons/c_models/c_smg/c_smg.mdl"
-		}
-	}
+	// "{cb98y9yg9yrwwef}"{
+	// 	"name"		"Lancer"
+	// 	"inherits"	"The Crusader's Crossbow"
+	// 	"attributes_game"{
+	// 		"health regen"		"3"
+	// 		"move speed bonus"		"1.3"
+	// 		"projectile speed increased"	"1.5"
+	// 		"reload time decreased"		"0.8"
+	// 		"damage penalty"		"0"
+	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_combatwrench/c_combatwrench.mdl"
+	// 	}
+	// }
+	// "{stg44uh8sh87ahsfs}"{
+	// 	"name"		"STG-44"
+	// 	"inherits"	"TF_WEAPON_SYRINGEGUN_MEDIC"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/weapons/c_models/c_syringegun/c_syringegun.mdl"		
+	// 	}
+	// }
+	// "{a98df98sdfsd}"{
+	// 	"name"		"Annilator"
+	// 	"inherits"	"TF_WEAPON_SMG"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/weapons/c_models/c_smg/c_smg.mdl"
+	// 	}
+	// }
 	"{rr09auf98ays}"{
 		"name"		"Russian Repeater"
 		"inherits"	"TF_WEAPON_SMG"
@@ -319,27 +319,27 @@
 			"set weapon model"		"download/models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl"
 		}
 	}
-	"{ar876s8d45ga768sd}"{
-		"name"		"Adjucator Revolver"
-		"inherits"	"TF_WEAPON_REVOLVER"
-		"attributes_game"{
-			"set weapon model"		"tf/download/models/weapons/c_models/c_revolver/c_revolver.mdl"
-		}
-	}
-	"{bfhas9ug90dysa87sd}"{
-		"name"		"Brute Force Homewrecker"
-		"inherits"	"The Homewrecker"
-		"attributes_game"{
-			"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
-		}
-	}
-	"{bka98s7896g}"{
-		"name"		"CBK"
-		"inherits"	"TTG Sam Revolver"
-		"attributes_game"{
-			"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
-		}
-	}
+	// "{ar876s8d45ga768sd}"{
+	// 	"name"		"Adjucator Revolver"
+	// 	"inherits"	"TF_WEAPON_REVOLVER"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"tf/download/models/weapons/c_models/c_revolver/c_revolver.mdl"
+	// 	}
+	// }
+	// "{bfhas9ug90dysa87sd}"{
+	// 	"name"		"Brute Force Homewrecker"
+	// 	"inherits"	"The Homewrecker"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
+	// 	}
+	// }
+	// "{bka98s7896g}"{
+	// 	"name"		"CBK"
+	// 	"inherits"	"TTG Sam Revolver"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
+	// 	}
+	// }
 
 	// vpks update
 	"{ltanger12iu4hi1h5i15}"{
@@ -356,16 +356,16 @@
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter.mdl"
 		}
 	}
-	"{russianriot}"{
-		"name"		"Russian Riot"
-		"inherits"	"TF_WEAPON_REVOLVER" // Unknown inherit
-		"attributes_game"{
-			"set weapon model"		"download/models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
-		}
-	}
+	// "{russianriot}"{
+	// 	"name"		"Russian Riot"
+	// 	"inherits"	"TF_WEAPON_REVOLVER" // Unknown inherit
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
+	// 	}
+	// }
 	"{ttshoa98su98as9gf}"{
 		"name"		"Tele Shotgun"
-		"inherits"	"TF_WEAPON_SHOTGUN_SOLDIER"
+		"inherits"	"The Rescue Ranger"
 		"attributes_game"{
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_tele_shotgun/c_tele_shotgun.mdl"
 		}
@@ -408,20 +408,20 @@
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
-	"{hnasa09s8g0a98sgag}"{
-		"name"		"HN Air Strike"
-		"inherits"	"The Air Strike"
-		"attributes_game"{
-			"set weapon model"		"download/models/weapons/w_models/w_rocket_airstrike/w_rocket_airstrike.mdl"
-		}
-	}
-	"{mlck876a8sg6g6}"{
-		"name"		"Maximalist Cleaner's Carbine"
-		"inherits"	"The Cleaner's Carbine"
-		"attributes_game"{
-			"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
-		}
-	}
+	// "{hnasa09s8g0a98sgag}"{
+	// 	"name"		"HN Air Strike"
+	// 	"inherits"	"The Air Strike"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/weapons/w_models/w_rocket_airstrike/w_rocket_airstrike.mdl"
+	// 	}
+	// }
+	// "{mlck876a8sg6g6}"{
+	// 	"name"		"Maximalist Cleaner's Carbine"
+	// 	"inherits"	"The Cleaner's Carbine"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
+	// 	}
+	// }
 	"{ntlas879a7g9ags}"{
 		"name"		"Natalia"
 		"inherits"	"Tomislav"
