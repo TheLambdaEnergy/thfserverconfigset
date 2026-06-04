@@ -344,7 +344,7 @@
 	// vpks update
 	"{ltanger12iu4hi1h5i15}"{
 		"name"		"letranger"
-		"inherits"	"The L'Etranger"
+		"inherits"	"L'Etranger"
 		"attributes_game"{
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_letranger/c_letranger.mdl"
 		}
@@ -424,7 +424,7 @@
 	}
 	"{ntlas879a7g9ags}"{
 		"name"		"Natalia"
-		"inherits"	"The Tomislav"
+		"inherits"	"Tomislav"
 		"attributes_game"{
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_tomislav/c_tomislav.mdl"
 		}
@@ -457,9 +457,6 @@
 			"set weapon model"		"download/models/weapons/c_models/c_leechgun/c_leechgun.mdl"
 		}
 	}
-	""
-
-
 }
 //Todo : delete MP-40 ,keep STG-44
 //Fix : Bazzar Sniper (Li'l Owen)
