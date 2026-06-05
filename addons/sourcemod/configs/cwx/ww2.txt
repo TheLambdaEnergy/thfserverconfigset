@@ -241,23 +241,23 @@
 		"name"		"The Rebel Action Rouser"
 		"inherits"	"Panic Attack Shotgun"
 		"attributes_game"{
-			"damage bonus" 				"1.2"
-			"fire rate bonus" 			"1.3"
-			"weapon spread bonus" 		"0.001"
-			"maxammo primary reduced" 	"0.5"
-			"set weapon model" 			"download/models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+			"damage bonus"				"1.2"
+			"fire rate bonus"			"1.3"
+			"weapon spread bonus"		"0.001"
+			"maxammo primary reduced"	"0.5"
+			"set weapon model"			"download/models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
 		}
 	}
 	"{gs6tf76asdt98fag}"{
 		"name"		"Garand Slam"
 		"inherits"	"TF_WEAPON_SHOTGUN_SOLDIER"
 		"attributes_game"{
-			"fire rate bonus" 		"0.5"
-			"clip size bonus" 		"1.4"
-			"weapon spread bonus" 	"0.001"
-			"reload time decreased" 	"0.8"
-			"maxammo primary reduced" 	"0.8"
-			"set weapon model" 		"download/models/weapons/c_models/c_shotgun/c_shotgun.mdl"
+			"fire rate bonus"		"0.5"
+			"clip size bonus"		"1.4"
+			"weapon spread bonus"		"0.001"
+			"reload time decreased"		"0.8"
+			"maxammo primary reduced"	"0.8"
+			"set weapon model"		"download/models/weapons/c_models/c_shotgun/c_shotgun.mdl"
 		}
 	}
 	"{alof98aus89yhag}"{
@@ -306,9 +306,9 @@
 		"inherits"	"TF_WEAPON_FLAMETHROWER"
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/w_models/w_flamethrower.mdl"
-			"damage bonus"		"1.5"
+			"damage bonus"			"1.5"
 			"maxammo primary reduced"	"0.25"
-			"weapon burn dmg increased"		"2"
+			"weapon burn dmg increased"	"2"
 			"airblast disabled"		"1"
 		}
 	}
@@ -319,7 +319,7 @@
 		"name"		"Brute Force Homewrecker"
 		"inherits"	"The Homewrecker"
 		"attributes_game"{
-			"damage bonus"		"1.1"
+			"damage bonus"			"1.1"
 			"slow enemy on hit"		"100"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
 		}
@@ -335,11 +335,13 @@
 		"name"		"Smoke Jarate"
 		"inherits"	"Jarate"
 		"attributes_game"{
-			"maxammo secondary increased"		"2"
+			"maxammo secondary increased"	"2"
 			"clip size bonus"		"2"
-			"charge recharge rate increased"		"1.25"
-			"cleaver description"		"100"
-			"ammo gives charge"		"2"
+			"effect bar recharge rate increased"	"2"
+			"bleeding duration"		"8"
+			"mod bat launches ornaments"	"1"
+			"cleaver description"		"1"
+			"ammo gives charge"		"1"
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
@@ -354,7 +356,7 @@
 		"name"		"P-08 Luger"
 		"inherits"	"TTG Max Pistol"
 		"attributes_game"{
-			"damage bonus"		"2"
+			"damage bonus"			"2"
 			"clip size penalty"		"0.7"
 			"fire rate bonus"		"1.11"
 			// +15% move speed when active
@@ -366,10 +368,10 @@
 		"inherits"	"Prinny Machete"
 		"attributes_game"{
 			"mark for death"		"1"
-			"minicrits become crits"		"1"
+			"minicrits become crits"	"1"
 			"fire rate bonus"		"1.33"
-			"speed boost when active"		"1.15"
-			"mod_maxhealth_drain_rate"		"1"
+			"speed boost when active"	"1.15"
+			"mod_maxhealth_drain_rate"	"1"
 			"set weapon model"		"download/models/weapons/c_models/c_machete/c_machete.mdl"
 		}
 	}
@@ -393,10 +395,10 @@
 		"inherits"	"The Flying Guillotine"
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/c_models/c_sd_cleaver/c_sd_cleaver.mdl"
-			"charge recharge rate increased"		"1.5"
-			"maxammo secondary increased"		"2"
-			"Projectile speed increased"		"2"
-			"damage bonus"		"2"
+			"charge recharge rate increased"	"1.5"
+			"maxammo secondary increased"	"2"
+			"Projectile speed increased"	"2"
+			"damage bonus"			"2"
 		}
 	}
 }
