@@ -338,7 +338,8 @@
 			"maxammo secondary increased"		"2"
 			"clip size bonus"		"2"
 			"charge recharge rate increased"		"1.25"
-			"bleeding duration"		"8"
+			"cleaver description"		"100"
+			"ammo gives charge"		"2"
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
@@ -376,6 +377,7 @@
 		"name"		"Pyro Molly"
 		"inherits"	"The Gas Passer"
 		"attributes_game"{
+			"explode_on_ignite"		"1"
 			"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
 		}
 	}
