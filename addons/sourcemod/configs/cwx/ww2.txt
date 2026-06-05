@@ -104,7 +104,7 @@
 		"attributes_game"{
 			"damage bonus"		"1.25"
 			"fire rate bonus"		"0.67"
-			"move speed bonus"		"0.1"
+			"move speed bonus"		"0.6"
 			"bleeding duration"		"2"
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
@@ -277,8 +277,8 @@
 		"name"		"Red 9"
 		"inherits"	"L'Etranger"
 		"attributes_game"{
-			"fire rate bonus"		"0.5"
-			"clip size bonus"		"2"
+			"fire rate bonus"		"0.67"
+			"clip size bonus"		"1.667"
 			"maxammo secondary increased"	"2"
 			"damage penalty"		"0.8"
 			"revolver use hit locations"	"1"
@@ -286,10 +286,10 @@
 		}
 	}
 	"{reserveshooter876a986f89a}"{
-		"name"		"Reserve Shooter"
+		"name"		"Model 8"
 		"inherits"	"The Reserve Shooter"
 		"attributes_game"{
-			"bullet spread bonus"		"2"
+			"bullets per shot bonus"		"2"
 			"weapon spread bonus"		"0.25"
 			"clip size bonus"		"1.25"
 			"fire rate bonus"		"1.3"
@@ -301,6 +301,11 @@
 		"name"		"Tele Shotgun"
 		"inherits"	"The Rescue Ranger"
 		"attributes_game"{
+			"damage bonus"			"2"
+			"reload time decreased"		"0.9"
+			"bleeding duration"		"3"
+			"clip size penalty"		"0.25"
+			"maxammo primary reduced"	"0.2"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_tele_shotgun/c_tele_shotgun.mdl"
 		}
 	}
@@ -345,7 +350,7 @@
 			"move speed bonus"		"1.3"
 			"projectile speed increased"	"1.5"
 			"reload time decreased"		"0.9"
-			"damage penalty"		"0"
+			"damage penalty"		"0.5"
 			"set weapon model"		"download/models/weapons/c_models/c_crusaders_crossbow/c_crusaders_crossbow.mdl"
 		}
 	}
@@ -361,7 +366,7 @@
 			"cleaver description"		"1"
 			"ammo gives charge"		"1"
 			"Set DamageType Ignite"		"1"
-			"applies snare effect"		"0.4"
+			"applies snare effect"		"4"
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
@@ -407,6 +412,7 @@
 		"inherits"	"The Gas Passer"
 		"attributes_game"{
 			"explode_on_ignite"		"1"
+			"Set DamageType Ignite"	"1"
 			"set weapon model"		"download/models/weapons/c_models/c_gascan/c_gascan.mdl"
 		}
 	}
@@ -414,6 +420,11 @@
 		"name"		"Spritze"
 		"inherits"	"TF_WEAPON_SYRINGEGUN_MEDIC"
 		"attributes_game"{
+			"damage bonus"			"2"
+			"fire rate bonus"		"0.714"
+			"move speed bonus"		"1.1"
+			"maxammo primary reduced"	"0.8"
+			"bleeding duration"		"2"
 			"set weapon model"		"download/models/weapons/c_models/c_leechgun/c_leechgun.mdl"
 		}
 	}
