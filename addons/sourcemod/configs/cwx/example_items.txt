@@ -186,7 +186,7 @@
 		"inherits"		"Tomislav"
 		"attributes_game"
 		{
-			"damage bonus"					"1.1"
+			"damage bonus"					"1.2"
 			"fire rate bonus"				"0.83"
 			"minigun spinup time decreased"			"0.8"
 			"move speed bonus"				"1.15"

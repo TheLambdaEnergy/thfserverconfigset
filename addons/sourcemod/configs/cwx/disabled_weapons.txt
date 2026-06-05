@@ -104,3 +104,11 @@
 	// 	}
 
 
+	// "{liowa9s8du9ausgf}"{
+	// 	"name"		"Lil Owen"
+	// 	"inherits"	"The Bazaar Bargain"
+	// 	"attributes_game"{
+	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper.mdl"
+	// 	}
+	// }
+

@@ -92,7 +92,9 @@
 		"name"		"The Bastard Backguard"
 		"inherits"	"The Equalizer"
 		"attributes_game"{
-			// Ready to change #1
+			"damage bonus"		"1.25"
+			"fire rate bonus"		"0.83"
+			"dmg from ranged reduced"		"0.5"
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
 	}
@@ -100,7 +102,10 @@
 		"name"		"The Wing Clipper"
 		"inherits"	"The Escape Plan"
 		"attributes_game"{
-			// Ready to change #1
+			"damage bonus"		"1.25"
+			"fire rate bonus"		"0.67"
+			"move speed bonus"		"0.1"
+			"bleeding duration"		"2"
 			"set weapon model"		"download/models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 		}
 	}
@@ -179,13 +184,6 @@
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
 		}
 	}
-	"{liowa9s8du9ausgf}"{
-		"name"		"Lil Owen"
-		"inherits"	"The Bazaar Bargain"
-		"attributes_game"{
-			"set weapon model"		"download/models/workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper.mdl"
-		}
-	}
 	"{kf12giwegsegsg}"{
 		"name"		"Kaiser Faust"
 		"inherits"	"The AWPer Hand"
@@ -233,7 +231,9 @@
 		"name"		"Trench Chopper"
 		"inherits"	"The Pain Train"
 		"attributes_game"{
-			// Ready to change #1
+			"fire rate bonus"		"0.67"
+			"bleeding duration"		"6"
+			"damage penalty"		"0.5"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_paintrain/c_paintrain.mdl"
 		}
 	}
@@ -274,9 +274,14 @@
 	}
 	// vpks update
 	"{ltanger12iu4hi1h5i15}"{
-		"name"		"letranger"
+		"name"		"Red 9"
 		"inherits"	"L'Etranger"
 		"attributes_game"{
+			"fire rate bonus"		"0.5"
+			"clip size bonus"		"2"
+			"maxammo secondary increased"	"2"
+			"damage penalty"		"0.8"
+			"revolver use hit locations"	"1"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_letranger/c_letranger.mdl"
 		}
 	}
@@ -284,6 +289,11 @@
 		"name"		"Reserve Shooter"
 		"inherits"	"The Reserve Shooter"
 		"attributes_game"{
+			"bullet spread bonus"		"2"
+			"weapon spread bonus"		"0.25"
+			"clip size bonus"		"1.25"
+			"fire rate bonus"		"1.3"
+			"single wep deploy time increased"		"1.4"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter.mdl"
 		}
 	}
@@ -298,6 +308,9 @@
 		"name"		"Flare Gun 2"
 		"inherits"	"The Flare Gun"
 		"attributes_game"{
+			"damage penalty"		"0.25"
+			"weapon burn dmg increased"		"1.5"
+			"reload time increased"		"2"
 			"set weapon model"		"download/models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.mdl"
 		}
 	}
@@ -328,6 +341,11 @@
 		"name"		"Wood Dart Rifle"
 		"inherits"	"The Crusader's Crossbow"
 		"attributes_game"{
+			"health regen"			"3"
+			"move speed bonus"		"1.3"
+			"projectile speed increased"	"1.5"
+			"reload time decreased"		"0.9"
+			"damage penalty"		"0"
 			"set weapon model"		"download/models/weapons/c_models/c_crusaders_crossbow/c_crusaders_crossbow.mdl"
 		}
 	}
@@ -342,6 +360,8 @@
 			"mod bat launches ornaments"	"1"
 			"cleaver description"		"1"
 			"ammo gives charge"		"1"
+			"Set DamageType Ignite"		"1"
+			"applies snare effect"		"0.4"
 			"set weapon model"		"download/models/weapons/c_models/urinejar.mdl"
 		}
 	}
@@ -349,6 +369,13 @@
 		"name"		"Natalia"
 		"inherits"	"Tomislav"
 		"attributes_game"{
+			"damage bonus"					"1.2"
+			"fire rate bonus"				"0.83"
+			"minigun spinup time decreased"			"0.8"
+			"move speed bonus"				"1.15"
+			"maxammo primary reduced"			"0.25"
+			"weapon spread bonus"				"0.2"
+			"spunup_damage_resistance"		"0.8"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_tomislav/c_tomislav.mdl"
 		}
 	}
@@ -396,6 +423,7 @@
 		"attributes_game"{
 			"set weapon model"		"download/models/weapons/c_models/c_sd_cleaver/c_sd_cleaver.mdl"
 			"charge recharge rate increased"	"1.5"
+			"Set DamageType Ignite"			"1"
 			"maxammo secondary increased"	"2"
 			"Projectile speed increased"	"2"
 			"damage bonus"			"2"
