@@ -16,9 +16,11 @@
 		
 		//// "inherits" automatically determines this if provided, but
 		//// sometimes you want a different itemdef (e.g. hiding weapon viewmodels with fists)
+		// "defindex"	"21"
 		
 		//// if not using "inherits", full classname must be provided
 		//// no magic bullshit happens in the backend (except translation based on player class)
+		// "item_class"	"tf_weapon_flamethrower"
 		
 		//// manually defined loadout slot, for listing in the correct menu and for inventory storage
 		//// "inherits" automatically determines this if provided, but if this section is also present, it will be used in place of what "inherits" would provide
@@ -26,6 +28,7 @@
 		//// you *cannot* specify your own slot and expect a weapon to work in a different slot than it was designed for
 		// "used_by_classes"
 		// {
+		//     "scout" "primary" // primary weapon for scout
 		// }
 		
 		//// whether or not static (item schema) attributes are preserved
@@ -50,6 +53,7 @@
 			
 			//// commented out below in case the below attribute exists
 			//// if the attribute exists, you will need to ensure the associated resources are cached
+			// "clientmodel override"					"models/weapons/c_models/c_firkin_flamer/c_firkin_flamer.mdl"
 		}
 	}
 	"{e1bc546e-b0b7-41c5-bc5e-8257406d575c}"
@@ -108,6 +112,7 @@
 			"fire rate penalty"				"5"
 			"damage penalty"				"2"
 			"sniper no headshots"				"1"
+			//"sniper zoom penalty"				"1000"
 			"dmg from melee increased"			"2"
 			"slow enemy on hit major"			"20"
 		}
@@ -240,6 +245,7 @@
 			"maxammo primary increased"			"6"
 			"Reload time decreased"				"0.2"
 			"damage penalty"				"0.3"
+			// "bullets per shot bonus"			"0.1"
 			"weapon spread bonus"				"0.3"
 		}
 	}
