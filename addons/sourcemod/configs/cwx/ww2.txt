@@ -445,14 +445,16 @@
 		"name"		"Russian Riot"
 		"inherits"	"The Family Business" // Unknown inherit
 		"attributes_game"{
+			"clip size bonus"		"5"
+			"maxammo secondary increased"	"5"
+			"fire rate bonus"		"0.4"
+			"damage penalty"		"0.5"
+			"slow enemy on hit"		"100"
 			"set weapon model"		"download/models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
 		}
 	}
 }
-//Todo : delete MP-40 ,keep STG-44
-//Fix : Bazzar Sniper (Li'l Owen)
-//
-
+// Todo empty
 
 
 
