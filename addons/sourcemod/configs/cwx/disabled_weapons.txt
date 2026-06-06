@@ -82,12 +82,7 @@
 	// 		"set weapon model"		"tf/download/models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
 	// 	}
 
-	// "{russianriot}"{
-	// 	"name"		"Russian Riot"
-	// 	"inherits"	"TF_WEAPON_REVOLVER" // Unknown inherit
-	// 	"attributes_game"{
-	// 		"set weapon model"		"download/models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
-	// 	}
+	
 
 	// "{hnasa09s8g0a98sgag}"{
 	// 	"name"		"HN Air Strike"
