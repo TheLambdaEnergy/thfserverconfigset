@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>服务器 MOTD</title>
+	<style>
+		:root {
+			--bg: #0f1115;
+			--panel: #171b22;
+			--panel-2: #12161d;
+			--text: #e8e8e8;
+			--muted: #b6bcc8;
+			--accent: #c21f2f;
+			--accent-soft: rgba(194, 31, 47, 0.14);
+			--border: rgba(255, 255, 255, 0.08);
+			--title-height: 72px;
+			--footer-height: 40px;
+			--pad: 18px;
+		}
+
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			background:
+				radial-gradient(circle at top, rgba(194, 31, 47, 0.16), transparent 35%),
+				linear-gradient(180deg, #0c0e12 0%, var(--bg) 100%);
+			color: var(--text);
+			font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+			overflow: hidden;
+		}
+
+		.motd {
+			box-sizing: border-box;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			padding: 14px;
+			gap: 12px;
+		}
+
+		.title-bar {
+			height: var(--title-height);
+			min-height: var(--title-height);
+			background: #ffffff;
+			color: var(--accent);
+			border: 1px solid rgba(0, 0, 0, 0.08);
+			border-radius: 14px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			overflow: hidden;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+		}
+
+		.logo-slot {
+			width: var(--title-height);
+			height: 100%;
+			flex: 0 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: rgba(194, 31, 47, 0.7);
+			background: linear-gradient(180deg, rgba(194, 31, 47, 0.06), rgba(194, 31, 47, 0.02));
+			user-select: none;
+		}
+
+		.logo-slot::before {
+			content: "LOGO";
+			font-size: 12px;
+			letter-spacing: 0.14em;
+			transform: scale(0.95);
+		}
+
+		.title-text {
+			flex: 1 1 auto;
+			text-align: center;
+			font-size: clamp(20px, 2.6vw, 30px);
+			font-weight: 700;
+			line-height: 1;
+			letter-spacing: 0.08em;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding: 0 12px;
+		}
+
+		.content {
+			flex: 1 1 auto;
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			min-height: 0;
+		}
+
+		.section {
+			box-sizing: border-box;
+			border: 1px solid var(--border);
+			border-radius: 14px;
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+			backdrop-filter: blur(6px);
+			box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+			overflow: hidden;
+		}
+
+		.body-1 {
+			min-height: 4.8em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			padding: 10px 18px;
+			color: var(--text);
+			font-size: 16px;
+			line-height: 2.4em;
+			background: linear-gradient(180deg, rgba(194, 31, 47, 0.08), rgba(194, 31, 47, 0.03));
+		}
+
+		.body-1 .placeholder {
+			display: inline-block;
+			max-width: 100%;
+			word-break: break-word;
+		}
+
+		.body-2 {
+			flex: 1 1 auto;
+			min-height: 0;
+			padding: 18px;
+			color: var(--muted);
+			font-size: 15px;
+			line-height: 1.8;
+			overflow: auto;
+		}
+
+		.body-2 .panel {
+			min-height: 100%;
+			border: 1px dashed rgba(255, 255, 255, 0.12);
+			border-radius: 12px;
+			padding: 16px;
+			background: rgba(0, 0, 0, 0.12);
+			box-sizing: border-box;
+		}
+
+		.footer {
+			height: var(--footer-height);
+			min-height: var(--footer-height);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 16px;
+			border: 1px solid var(--border);
+			border-radius: 12px;
+			background: rgba(0, 0, 0, 0.22);
+			color: #d0d0d0;
+			font-size: 12px;
+			letter-spacing: 0.02em;
+			text-align: center;
+		}
+
+		.legal {
+			color: #f0f0f0;
+		}
+
+		@media (max-width: 640px) {
+			:root {
+				--title-height: 58px;
+				--footer-height: 48px;
+			}
+
+			.motd {
+				padding: 10px;
+				gap: 10px;
+			}
+
+			.title-text {
+				font-size: 18px;
+				letter-spacing: 0.04em;
+			}
+
+			.body-1,
+			.body-2 {
+				padding-left: 14px;
+				padding-right: 14px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="motd">
+		<header class="title-bar" aria-label="标题栏">
+			<div class="logo-slot" aria-hidden="true"></div>
+			<div class="title-text" id="titleText">【标题占位符】</div>
+			<div class="logo-slot" aria-hidden="true"></div>
+		</header>
+
+		<section class="content" aria-label="正文区域">
+			<div class="section body-1">
+				<div class="placeholder" id="bodyOne">
+					正文1占位内容，默认居中显示，建议放置服务器规则、快速提示或欢迎语。<br>
+					这一块高度约为两行文字。
+				</div>
+			</div>
+
+			<div class="section body-2">
+				<div class="panel" id="bodyTwo">
+					正文2占位内容，默认填充页面剩余区域。这里适合放置服务器公告、更新日志、地图说明、活动说明或外部链接替代文案。
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer" id="footerText">
+			<span class="legal">© 2026 服务器名称</span> · 法律与版权信息占位：请遵守社区规则、游戏 EULA 及相关法律法规。
+		</footer>
+	</main>
+
+	<script>
+		(function () {
+			const root = document.documentElement;
+			const titleBar = document.querySelector('.title-bar');
+			const logoSlots = document.querySelectorAll('.logo-slot');
+			const footerText = document.getElementById('footerText');
+
+			function syncLogoWidth() {
+				const height = Math.round(titleBar.getBoundingClientRect().height);
+				root.style.setProperty('--title-height', height + 'px');
+				logoSlots.forEach((slot) => {
+					slot.style.width = height + 'px';
+				});
+			}
+
+			function syncYear() {
+				const year = new Date().getFullYear();
+				footerText.querySelector('.legal').textContent = `© ${year} 服务器名称`;
+			}
+
+			syncLogoWidth();
+			syncYear();
+			window.addEventListener('resize', syncLogoWidth, { passive: true });
+		})();
+	</script>
+</body>
+</html>
